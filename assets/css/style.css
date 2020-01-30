@@ -4,10 +4,12 @@
     margin: 0;
 }
 
+/* style for the body section  */
 body {
     background-color: #d9dcd6;
 }
 
+/* styles for the header section */
 header {
     width:100%;
     float: left;
@@ -53,6 +55,7 @@ p {
     font-size: 16px;
 }
 
+/* this is the image that displays accross the width of the page right below the header */
 .hero {
     height: 800px;
     width: 100%;
@@ -62,22 +65,7 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/* style for benefits class*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -137,6 +125,23 @@ p {
     max-width: 150px;
 }
 
+/* style for the main class content */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
 .search-engine-optimization {
     overflow:auto;
     margin-bottom: 20px;
@@ -193,7 +198,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* style of the footer  */
 footer {
     padding: 30px;
     clear: both;
